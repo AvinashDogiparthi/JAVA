@@ -1,0 +1,40 @@
+✅ In Java, primitive types are the most basic data types.
+✅ They hold simple values directly (not objects, no extra features).
+✅ They are fast and memory-efficient.
+
+
+📘 Integer Types (Whole Numbers)
+Type | Size | Range | Example
+byte | 1 byte (8 bits) | -128 to 127 | byte b = 100;
+short | 2 bytes (16 bits) | -32,768 to 32,767 | short s = 10000;
+int | 4 bytes (32 bits) | -2^31 to 2^31-1 | int i = 50000;
+long | 8 bytes (64 bits) | -2^63 to 2^63-1 | long l = 10000000000L;
+
+
+
+📘 Floating Point Types (Decimal Numbers)
+Type | Size | Range | Example
+float | 4 bytes | ~6-7 decimal digits | float f = 10.5f;
+double | 8 bytes | ~15 decimal digits | double d = 10.5;
+
+
+📘 Character Type
+Type | Size | Range | Example
+char | 2 bytes (16 bits) | Unicode characters (0 to 65,535) | char c = 'A';
+
+
+📘 Boolean Type
+Type | Size | Values | Example
+boolean | JVM dependent (often 1 bit internally) | true or false | boolean isActive = true;
+
+
+
+Data Type | Size | Default Value | Example
+byte | 1 byte | 0 | byte a = 10;
+short | 2 bytes | 0 | short b = 1000;
+int | 4 bytes | 0 | int c = 100000;
+long | 8 bytes | 0L | long d = 10000000000L;
+float | 4 bytes | 0.0f | float e = 5.5f;
+double | 8 bytes | 0.0d | double f = 10.123;
+char | 2 bytes | '\u0000' | char g = 'Z';
+boolean | 1 bit (logical) | false | boolean h = true;

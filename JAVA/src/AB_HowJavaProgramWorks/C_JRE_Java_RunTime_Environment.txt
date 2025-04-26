@@ -1,0 +1,31 @@
+JRE is a software package that provides everything needed to run a Java program.
+
+It does NOT contain tools to develop Java programs (like javac compiler) — it is only for running Java applications.
+
+✅ In short:
+If you want to run Java programs → you need JRE.
+If you want to develop Java programs → you need JDK.
+
+
+
+Part | Purpose
+JVM (Java Virtual Machine) | To execute bytecode
+Set of Libraries | Pre-built Java class libraries (java.lang, java.util, etc.)
+Other supporting files | Configuration files, property files, fonts, security policy files, etc.
+
+
+
+
+💻 Flow of a Java Program Using JRE
+
+1. Developer compiles Hello.java → Hello.class (bytecode).
+2. User has JRE installed on their system.
+3. JVM inside JRE reads Hello.class.
+4. JVM executes it with help of Java libraries.
+5. Output is shown on the console.
+
+
+🛠️ Where is JRE Installed?
+When you install Java JDK, it automatically installs JRE inside it.
+You can also install only JRE separately if you just want to run Java apps, not develop.
+✅ For example: if you're running Minecraft (built on Java), you need JRE only!

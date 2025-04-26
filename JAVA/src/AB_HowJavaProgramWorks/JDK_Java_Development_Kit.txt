@@ -1,0 +1,24 @@
+JDK is a software development kit (SDK) specifically for Java.
+
+It provides everything you need to develop, compile, debug, and run Java applications.
+
+It includes:
+
+JRE (Java Runtime Environment) → to run Java programs
+
+Development tools like javac (compiler), javadoc, jar tools, etc.
+
+✅ If you are only running Java apps → you just need JRE.
+✅ If you are developing Java apps → you must install JDK.
+
+
+
+🛠️ What is inside JDK?
+
+Component | Purpose
+JRE | To run Java applications
+Compiler (javac) | Converts .java source code into .class bytecode
+Java Doc Tool (javadoc) | Creates documentation from Java source code comments
+Java Debugger (jdb) | Helps to debug Java programs
+Java Archive Tool (jar) | Packages classes into a .jar file
+Others (javap, jdeps, etc.) | Disassembler, dependency analyzer tools

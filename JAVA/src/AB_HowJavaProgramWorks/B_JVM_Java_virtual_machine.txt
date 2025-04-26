@@ -1,0 +1,35 @@
+ [Source Code]
+      ↓
+  javac Compiler
+      ↓
+ [Bytecode (.class file)]  ← (Platform-Independent)
+      ↓
++------------------------+
+|  JVM for Windows       |
+|  JVM for Linux         |
+|  JVM for Mac           |
++------------------------+
+         ↓
+   [Program Runs]
+
+
+
+JVM --> Platform dependent
+if you have macOS, you need to install the JVM for macOS
+if you have windows, you need to install the JVM for windows
+if you have linux, you need to install the JVM for linux
+
+
+JVM
+Input : ByteCode
+Output : MachineCode
+
+JVM is a virtual machine that runs Java bytecode.
+
+Responsibility | Meaning
+Load code | Loads .class files
+Verify code | Checks bytecode is valid and safe
+Execute code | Runs the program
+Manage memory | Handles allocation and garbage collection
+Provide runtime environment | Manages threads, exceptions, security
+

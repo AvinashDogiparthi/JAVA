@@ -1,0 +1,27 @@
+Types of variables in JAVA :
+
+📘 1. Local Variable
+✅ Declared inside a method, constructor, or block.
+✅ Only available within that method/block.
+✅ Not accessible outside the method.
+✅ Must be initialized before using.
+
+
+
+
+📘 2. Instance Variable (Object-level Variable)
+✅ Declared inside a class but outside any method.
+✅ Each object gets its own copy of instance variables.
+✅ Memory allocated when the object is created.
+✅ Accessed through objects.
+
+
+
+
+📘 3. Static Variable (Class Variable)
+✅ Declared inside a class with static keyword.
+✅ Only one copy exists, shared across all objects.
+✅ Memory allocated once when class is loaded.
+✅ Accessed directly using class name or object.
+
+

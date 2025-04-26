@@ -1,0 +1,45 @@
+It is a platform independent language
+Very popular object-oriented programming
+
+Portability [ W O R A ] : Write Once, Run Anywhere
+
+🌟 What is WORA in Java?
+WORA means:
+You write Java code once on any platform (Windows, Mac, Linux).
+You can run the same compiled code anywhere without changing it.
+You don't need to rewrite or recompile the program for every machine.
+
+
+
+
+✅ This is possible because of the Java Virtual Machine (JVM).
+
+
+
+🔥 How it Works Step-by-Step
+
+You write .java source code.
+Java compiler (javac) compiles it into .class bytecode.
+Bytecode is platform-independent — not tied to any OS.
+JVM (specific to each OS) interprets/executes the bytecode on the target machine.
+
+
+
+
+
+
+
+
+ [Source Code]
+      ↓
+  javac Compiler
+      ↓
+ [Bytecode (.class file)]  ← (Platform-Independent)
+      ↓
++------------------------+
+|  JVM for Windows       |
+|  JVM for Linux         |
+|  JVM for Mac           |
++------------------------+
+         ↓
+   [Program Runs]

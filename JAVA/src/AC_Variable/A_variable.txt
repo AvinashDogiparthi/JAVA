@@ -1,0 +1,16 @@
+Variable is a container which holds a value
+Variable is a name of memory location
+
+☕ What is Static Typed Language?
+Static typing means variable types are checked at compile-time (before the program runs).
+You must declare the type of a variable explicitly or implicitly when writing code.
+If you assign a wrong type, it gives a compile-time error — not a runtime error.
+
+
+
+☕ What is Strong Typed Language?
+Strong typing means a language does not allow mixing of different types without explicit conversion.
+Type safety is strictly enforced.
+You cannot automatically assign an integer to a string, or vice-versa, without manual conversion.
+
+

@@ -1,0 +1,35 @@
+📘 1. Widening Conversion (Automatic / Implicit Casting)
+
+Smaller type → Bigger type (no risk of data loss).
+Done automatically by the Java compiler.
+Also called upcasting.
+
+From | To
+byte | short, int, long, float, double
+short | int, long, float, double
+char | int, long, float, double
+int | long, float, double
+long | float, double
+float | double
+
+
+
+
+
+
+📘 2. Narrowing Conversion (Manual / Explicit Casting)
+
+Bigger type → Smaller type (possible loss of data).
+Must be done manually by the programmer using type casting.
+Also called downcasting.
+
+targetType variableName = (targetType) value;
+
+From | To
+double | float, long, int, short, byte, char
+float | long, int, short, byte, char
+long | int, short, byte, char
+int | short, byte, char
+short | byte, char
+
+

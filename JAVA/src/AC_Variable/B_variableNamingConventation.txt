@@ -1,0 +1,7 @@
+1) Variable name is case-sensitive
+2) Variable name can be only legal identifier means can contain uni-code characters letters and digits.
+3) Variable name can start with $,_ and letter
+4) Variable name cannot be JAVA reserved keyword like "new", "class", "int", "float", "double", "public", "private", "protected" etc.
+5) Variable name cannot contain space
+6) Variable should be all of it contains only 1 word else camel case should be used
+7) For constant, variable name should be defined in all capital letters
