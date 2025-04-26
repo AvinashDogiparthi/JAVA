@@ -1,0 +1,9 @@
+✅ In Java, a reference data type refers to an object.
+✅ Instead of holding actual data like primitive types, it stores the memory address (reference) where the object is located.
+
+🎯 Key Points about Reference Types :
+
+Created using class, interface, or array.
+Memory is allocated in the Heap area.
+Can be null (which means the reference is pointing to nothing).
+Can reference custom objects, arrays, strings, collections, etc.

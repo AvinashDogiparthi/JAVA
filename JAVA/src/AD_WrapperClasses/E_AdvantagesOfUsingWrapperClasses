@@ -1,0 +1,84 @@
+1️⃣ They allow primitives to be used where only objects are allowed
+
+✅ Many Java APIs, libraries, and data structures only work with objects, not primitive types.
+✅ Example:
+Collections like ArrayList, HashMap, etc., can store objects but cannot store primitives.
+
+Example:
+ArrayList<int> list = new ArrayList<>();   // ❌ Not allowed (primitive)
+ArrayList<Integer> list = new ArrayList<>();  // ✅ Wrapper class
+✅ So, wrapper classes make it possible to use primitives inside collections.
+
+
+
+
+
+
+
+2️⃣ Autoboxing and Unboxing makes code simpler
+✅ Since Java 5, you can automatically convert between primitives and wrapper objects without writing manual code.
+
+Example:
+Integer a = 10;   // Autoboxing
+int b = a;        // Unboxing
+✅ This saves coding effort and makes code cleaner and readable.
+
+
+
+
+
+
+
+
+3️⃣ Wrapper classes provide useful utility methods
+✅ Wrapper classes come with built-in methods for conversion, parsing, etc.
+
+Example:
+
+String s = "123";
+int num = Integer.parseInt(s);  // converts String to int
+✅ Integer.parseInt(), Double.parseDouble(), Boolean.parseBoolean(), etc.,
+✅ These are very useful for real-world programming!
+
+
+
+
+4️⃣ They allow Null Values (Optional Values)
+✅ Wrapper objects can be null, primitives cannot.
+
+✅ Useful when you need to represent absence of value in variables, objects, databases, etc.
+
+Example:
+Integer salary = null;  // allowed
+int salary = null;      // ❌ Error
+✅ Helps in cases like optional fields in database operations.
+
+
+
+
+
+5️⃣ They make generic programming possible
+✅ In Java Generics (<T>), only objects are allowed.
+
+✅ Because wrapper classes turn primitives into objects,
+you can create generic code that works with primitive-like data.
+
+Example:
+ArrayList<Integer> list = new ArrayList<>();
+ArrayList<Double> rates = new ArrayList<>();
+✅ Otherwise, Generics would not work with int, double, etc.
+
+
+
+
+
+
+6️⃣ They support Immutability
+✅ Wrapper objects are immutable, meaning once created, their value cannot be changed.
+✅ This immutability makes wrapper classes:
+
+Thread-safe
+
+Predictable
+
+Useful for caching (especially in case of Integer values from -128 to 127)
