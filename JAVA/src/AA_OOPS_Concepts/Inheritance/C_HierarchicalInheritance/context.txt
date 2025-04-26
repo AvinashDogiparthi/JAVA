@@ -1,0 +1,9 @@
+           Animal  ← Superclass
+           /    \
+        Dog     Cat   ← Subclasses
+
+
+Why Use Hierarchical Inheritance?
+      * Common functionality goes into the base class.
+      * Specific functionality is added in child classes.
+      * It promotes code reuse and clean structure.

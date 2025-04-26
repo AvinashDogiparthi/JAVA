@@ -1,0 +1,18 @@
+Multiple Inheritance means a class inherits from more than one parent.
+
+🔴 Java Limitation (Important!)
+Java does not support multiple inheritance with classes to avoid ambiguity (like the Diamond Problem).
+
+However, Java does support multiple inheritance with interfaces ✅.
+
+
+
+✅ Solution: Use Interfaces for Multiple Inheritance
+In Java, a class can implement multiple interfaces.
+
+
+📝 Summary Table
+
+Concept	                Classes	                                          Interfaces
+Multiple Inheritance	❌ Not allowed	                                  ✅ Allowed
+Syntax	                class C extends A, B – Invalid	                  class C implements A, B – Valid
