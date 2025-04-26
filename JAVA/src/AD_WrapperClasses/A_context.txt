@@ -1,0 +1,16 @@
+✅ Wrapper Classes are special classes in java.lang package
+✅ They are used to wrap (store) primitive data types into objects.
+
+Primitive Type | Wrapper Class
+byte | Byte
+short | Short
+int | Integer
+long | Long
+float | Float
+double | Double
+char | Character
+boolean | Boolean
+
+
+
+
