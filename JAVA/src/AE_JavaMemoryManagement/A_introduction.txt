@@ -1,0 +1,41 @@
+☕ Java Memory Management
+Java memory is mainly divided into five main areas (but we focus mostly on Stack and Heap for now).
+
+Java Memory
+├── Stack Memory (Thread-specific)
+├── Heap Memory (Shared across all Threads)
+├── Method Area (for class data, static variables)
+├── PC Register (per-thread small memory)
+├── Native Method Stack (for native C/C++ methods)
+
+
+🛠️ Stack Memory Explained
+
+✅ Stack memory is used for:
+Local variables (int x = 10)
+Method call information (parameters, return address)
+Reference variables pointing to objects in Heap
+
+✅ It’s called Stack because it behaves LIFO (Last In First Out):
+When a method is called ➔ a "stack frame" is pushed.
+When a method ends ➔ its frame is popped off.
+
+🛡️ Extra Important:
+Because Stack is thread-specific, there is no race condition or synchronization problem for local variables inside methods.
+That’s why local variables are safe in multi-threaded programs in Java.
+
+
+
+
+🛠️ Heap Memory Explained
+✅ Heap memory is used for:
+Objects (new Student(), new Car(), new String())
+Instance variables (inside objects)
+
+✅ When you create an object using new, it is stored in the Heap.
+
+✅ All objects live in Heap until:
+They are no longer referenced, and
+Garbage Collector (GC) automatically removes them.
+
+✅ Heap memory is shared across the entire application.
