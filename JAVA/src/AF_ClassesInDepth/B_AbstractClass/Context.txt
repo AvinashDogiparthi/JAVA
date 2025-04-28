@@ -1,0 +1,8 @@
+Show only important features to users and hide its internal implementation
+
+* Class is declared as abstracted through keyword abstract
+* It can have both abstract and concrete methods
+* We cannot create an instance of this class
+* We parent has some features which all child classes have in common, then this can be used
+* Constructors can be created inside them and with super keyword from child classes we can access them
+

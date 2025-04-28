@@ -1,0 +1,15 @@
+Class within another is called Nested Class
+
+When to use ?
+If you know that, a class A will be used only by class B, then instead of creating a new file for it.
+We can create nested class inside B class itself.
+
+Also it helps us to group logically related classes in one file
+
+Scope :
+Its scope is same as of its outer class
+
+Types of Nested Class :
+1) Static nested class
+2) Non-Static nested class
+
