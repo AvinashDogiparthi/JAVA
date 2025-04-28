@@ -1,0 +1,12 @@
+✅ A concrete class in Java is a regular class that:
+
+Can be instantiated (you can create objects from it).
+Implements all its methods completely.
+Does NOT have any abstract methods left unimplemented.
+
+👉 In short: A class that is fully defined and can be used to create objects.
+Ex : Dog class in this package
+
+
+✅ When a class implements an interface and defines all methods, it becomes a concrete class.
+Car class in this package

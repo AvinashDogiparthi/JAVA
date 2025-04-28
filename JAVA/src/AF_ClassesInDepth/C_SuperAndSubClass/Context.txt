@@ -1,0 +1,6 @@
+A class that is derived from another class is Sub class, and from which it is derived is Super class.
+
+In JAVA, in the absence of any other explicit super class every class is implicitly a sub class of Object class.
+Object is the top most class in JAVA.
+
+It has some common methods like clone(), toString(), equals(), finalize(), wait(), notify(), etc.
