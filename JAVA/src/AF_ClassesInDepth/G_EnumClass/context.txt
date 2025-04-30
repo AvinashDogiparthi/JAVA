@@ -1,0 +1,9 @@
+It has a collection of constants ( variables which values cannot be changed )
+
+It's constants are static and final implicitly ( we do not have to write have to write it)
+
+It cannot extend any class, as it internally extends java.lang.Enum
+It can implement interfaces
+It can have variables, methods and constructors
+It cannot be initiated ( as its constructor is private)
+No other class can extend enum class

@@ -1,0 +1,8 @@
+Stands for Plain Old JAVA Object
+
+Contains variables and its getter and setter methods
+Class should be public
+public default constructor
+No annotations like @Table, @Entity should be used
+It should not extend any class or implement any interface
+
