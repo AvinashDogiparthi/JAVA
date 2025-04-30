@@ -1,0 +1,7 @@
+We cannot change the value of an object once it is created
+Declare class as "final" so that it cannot be extended
+All class members should be private. So that direct access can be avoided
+Class members are initialized only using constructor
+There should not be any setter methods, which is generally used to change value
+
+just getter methods and returns copy of the member variable
