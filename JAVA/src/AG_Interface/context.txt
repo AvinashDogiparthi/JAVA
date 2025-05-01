@@ -1,0 +1,8 @@
+Fields are public, static and final implicitly
+You cannot make field private (or) protected
+
+Overriding method cannot have more restrict access specifiers
+Concrete class must override all the methods declared in the interface
+
+Abstract classes are not forced to override all the methods
+A class can implement from multiple interface which solves diamond problem in OOPs
