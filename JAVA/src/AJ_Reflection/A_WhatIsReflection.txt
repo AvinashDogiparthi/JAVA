@@ -1,0 +1,11 @@
+This is used to examine the classes, methods, fields, interfaces at runtime and also possible to change the
+behaviour of the class too.
+
+Example :
+
+1) What all methods present in the classes
+2) What all fields present in the classes
+3) What is the return type of the method
+4) What is the modifier of the class
+5) What all interfaces class has implemented
+6) Change the value of the public and private field of the classes etc ...

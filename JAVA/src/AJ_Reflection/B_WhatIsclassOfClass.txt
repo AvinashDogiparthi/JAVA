@@ -1,0 +1,30 @@
+Instance of the class Class represents classes during run-time.
+
+JVM created one class object for each and every class which is loaded during run-time.
+This class Object, has meta data information about the particular class like its method, fields, constructor etc
+
+
+How to get particular class Class Object
+
+There are three ways :
+
+
+1) using forName() method :
+
+    class Bird {}
+    class birdClass =Class.forName("Bird");
+
+
+2) Using .class :
+
+   class Bird {}
+   class birdClass = Bird.class
+
+
+3) Using getClass() method :
+
+    Bird birdObj = new Bird();
+    class birdClass = birdObj.getClass();
+
+
+
