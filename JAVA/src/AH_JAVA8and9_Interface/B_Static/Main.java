@@ -6,8 +6,6 @@ public class Main {
         MyCalculator calculator = new MyCalculator();
         calculator.display();
 
-        Thread
-
         int result = Calculator.add(1,2);
         System.out.println("Sum = "+ result);
     }
