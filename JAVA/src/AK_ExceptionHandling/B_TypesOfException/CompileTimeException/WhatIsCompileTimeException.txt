@@ -1,0 +1,23 @@
+✅ What is a Compile-Time Exception in Java?
+A compile-time exception, also called a checked exception, is an exception that the Java compiler checks for during compilation.
+If your code doesn't handle it (using try-catch) or declare it (throws), the code won’t compile.
+
+
+| Feature                          | Description                                                                |
+| -------------------------------- | -------------------------------------------------------------------------- |
+| **Type**                         | Subclass of `Exception` (but **not** of `RuntimeException`)                |
+| **Checked by compiler?**         | ✅ Yes                                                                      |
+| **Must be handled or declared?** | ✅ Yes (`try-catch` or `throws`)                                            |
+| **Caused by?**                   | External conditions: file not found, network errors, database issues, etc. |
+| **Preventable at compile time?** | Often not — they deal with resources the code can’t control                |
+
+
+| Exception                       | Description                                                    |
+| ------------------------------- | -------------------------------------------------------------- |
+| **`IOException`**               | Issues during I/O operations like file reading                 |
+| **`FileNotFoundException`**     | Trying to open a file that doesn’t exist                       |
+| **`SQLException`**              | Errors interacting with a database                             |
+| **`ParseException`**            | Date parsing or formatting error                               |
+| **`ClassNotFoundException`**    | Class not found when using `Class.forName()`                   |
+| **`InterruptedException`**      | Thrown when a thread is interrupted                            |
+| **`InvocationTargetException`** | When reflection causes an exception in the method being called |

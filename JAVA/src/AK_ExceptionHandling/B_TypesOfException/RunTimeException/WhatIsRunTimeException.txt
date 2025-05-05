@@ -1,0 +1,30 @@
+A RuntimeException is a type of unchecked exception — it occurs during program execution (runtime)
+and does not need to be declared or caught explicitly in code using throws or try-catch.
+
+
+🔍 Key Points:
+It extends java.lang.RuntimeException, which is a subclass of java.lang.Exception.
+Unlike checked exceptions, Java does not force you to handle runtime exceptions.
+Mostly caused by programming errors like:
+Invalid logic
+Incorrect API usage
+Null pointers
+Bad casting
+
+
+
+
+| Exception                             | When It Occurs                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------- |
+| **`NullPointerException`**            | Trying to use `null` as an object                                         |
+| **`ArrayIndexOutOfBoundsException`**  | Accessing an invalid index in an array                                    |
+| **`StringIndexOutOfBoundsException`** | Accessing invalid index in a string                                       |
+| **`ArithmeticException`**             | Division by zero (e.g., `5 / 0`)                                          |
+| **`ClassCastException`**              | Incorrect casting between object types                                    |
+| **`IllegalArgumentException`**        | Passing illegal or inappropriate arguments to a method                    |
+| **`IllegalStateException`**           | Calling a method at an inappropriate or illegal time                      |
+| **`NumberFormatException`**           | Trying to parse a string that’s not a number (`Integer.parseInt("abc")`)  |
+| **`UnsupportedOperationException`**   | Trying to perform an operation that’s not supported                       |
+| **`ConcurrentModificationException`** | Modifying a collection while iterating through it (e.g., `ArrayList`)     |
+| **`InputMismatchException`**          | Scanner reads a wrong input type (e.g., expecting int but getting string) |
+

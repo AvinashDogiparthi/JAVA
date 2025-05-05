@@ -1,4 +1,4 @@
-package AJ_Reflection.G_InvokingMethodUsingReflection;
+package AJ_Reflection.C_InvokingMethodUsingReflection;
 
 public class Eagle {
 

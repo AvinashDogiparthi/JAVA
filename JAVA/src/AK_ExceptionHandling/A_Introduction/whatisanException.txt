@@ -1,0 +1,6 @@
+It is an event that occurs during the execution of the program
+It will disrupt your program flow
+It creates the exception object, which contain information about the error like
+     Its type of Execption
+     Stack trace
+Run-time system use this exception object and find the class which can handle it.

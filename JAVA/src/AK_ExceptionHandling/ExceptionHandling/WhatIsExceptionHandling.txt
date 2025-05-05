@@ -1,0 +1,15 @@
+Exception handling in Java is a mechanism to gracefully handle runtime errors so the normal flow of the program can continue.
+Instead of crashing, the program catches the exception and decides what to do (e.g., show a message, retry, or clean up resources).
+
+
+
+| Keyword   | Purpose                                               |
+| --------- | ----------------------------------------------------- |
+| `try`     | Wraps code that may throw an exception                |
+| `catch`   | Catches and handles specific exceptions               |
+| `finally` | Runs code regardless of whether an exception occurred |
+| `throw`   | Used to explicitly throw an exception                 |
+| `throws`  | Declares that a method may throw exceptions           |
+
+
+

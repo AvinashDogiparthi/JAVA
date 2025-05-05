@@ -1,4 +1,4 @@
-package AJ_Reflection.F_MethodLevelReflection.usingGetDeclaredMethods;
+package AJ_Reflection.B_MethodLevelReflection.usingGetMethods;
 
 public class Eagle {
 
