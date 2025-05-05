@@ -1,4 +1,4 @@
-package AJ_Reflection;
+package AJ_Reflection.A_Introduction;
 import java.lang.reflect.*;
 
 public class ClassReflectionExample {
