@@ -1,0 +1,13 @@
+Few things we need to take care :
+
+1) Two cases cannot have same value
+2) Switch expression datatype and case values/ constant datatype should be same
+3) Case value should be either LITERAL or CONSTANT
+4) All use cases need not to be handled
+5) Nested switch statement is possible
+6) Supported data types :
+       4 primitive data types : int, short, byte, char
+       Wrapper types of above primitive types
+       Enum
+       String
+7) Return is not possible within switch case
