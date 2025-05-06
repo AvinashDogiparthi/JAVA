@@ -1,0 +1,9 @@
+| **Aspect**      | **Collection**                                           | **Collections**                                                      |
+| --------------- | -------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Type**        | **Interface**                                            | **Utility class**                                                    |
+| **Package**     | `java.util.Collection`                                   | `java.util.Collections`                                              |
+| **Purpose**     | Root interface for data structures like List, Set, Queue | Utility class that provides static methods to operate on collections |
+| **Usage**       | You implement/instantiate it via `List`, `Set`, etc.     | You **use its static methods** like `sort()`, `reverse()`            |
+| **Inheritance** | Super interface for all collection types                 | Not an interface or base class — just helper methods                 |
+
+

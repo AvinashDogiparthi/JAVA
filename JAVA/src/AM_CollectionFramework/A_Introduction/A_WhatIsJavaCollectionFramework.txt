@@ -1,0 +1,44 @@
+Added in the java version 1.2
+Collections is nothing but a group of objects
+Present in java.util package
+Framework provides us the architecture to manage these "group of objects" i.e., add, update, delete, search
+
+
+Why we need JAVA collection framework ?
+
+Prior to java collections framework, we have array, vector and hashtables
+But problem with that is there is not common interface. So it is difficult to rememeber the method for each
+
+
+
+Now with JAVA collection framework, all collections are the child classes of collection, So, they share similar methods to perform the operations
+Instead we have to focus on code logic
+
+
+
+java.lang.Iterable  (root interface)
+        |
+        +-- java.util.Collection<E>
+                 |
+                 +-- java.util.List<E>
+                 |      +-- ArrayList
+                 |      +-- LinkedList
+                 |      +-- Vector
+                 |           +-- Stack
+                 |
+                 +-- java.util.Set<E>
+                 |      +-- HashSet
+                 |      |     +-- LinkedHashSet
+                 |      +-- TreeSet (implements NavigableSet)
+                 |
+                 +-- java.util.Queue<E>
+                        +-- LinkedList (also List)
+                        +-- PriorityQueue
+                        +-- ArrayDeque
+
+java.util.Map<K, V>  (not part of Collection but related)
+        +-- HashMap
+        |     +-- LinkedHashMap
+        +-- TreeMap (implements NavigableMap)
+        +-- Hashtable
+              +-- Properties

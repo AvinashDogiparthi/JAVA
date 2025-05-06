@@ -1,0 +1,12 @@
+Iterable
+
+Used to traverse the collection
+Below are the methods which are frequently used :
+
+
+| **Method**       | **Available In** | **Usage**                                                                                                                          |
+| ---------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `hasNext()`      | `Iterator`       | Checks if there are more elements to iterate over. <br>➡️ Returns `true` if more elements exist.                                   |
+| `next()`         | `Iterator`       | Returns the next element in the collection. <br>➡️ Must be called after `hasNext()` returns `true`.                                |
+| `remove()`       | `Iterator`       | Removes the current element from the collection. <br>➡️ Should be called **after** `next()`.                                       |
+| *N/A (implicit)* | `for-each` loop  | Uses `Iterable` internally and automatically calls `hasNext()` and `next()`. <br>➡️ Simpler syntax, but **no `remove()` support**. |
