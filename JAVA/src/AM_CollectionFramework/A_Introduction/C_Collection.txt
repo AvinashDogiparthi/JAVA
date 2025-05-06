@@ -1,0 +1,21 @@
+✅ 1. Understanding Collection Interface in Java
+The Collection interface is the root interface of the Java Collections Framework. It provides basic operations such as adding, removing, checking size, and checking for elements. Most collections like List, Set, and Queue implement this interface.
+
+✅ 2. Commonly Used Methods of Collection Interface
+Here's a detailed table explaining the most frequently used methods in Collection:
+
+
+| **Method**                   | **Available In**     | **Usage**                                                            |
+| ---------------------------- | -------------------- | -------------------------------------------------------------------- |
+| `size()`                     | Collection           | Returns the **number of elements** in the collection.                |
+| `isEmpty()`                  | Collection           | Checks if the collection is **empty** (returns `true` if size is 0). |
+| `contains(Object o)`         | Collection           | Returns `true` if the collection **contains** the specified element. |
+| `toArray()`                  | Collection           | Converts collection to **array of objects**.                         |
+| `add(E e)`                   | Collection           | Adds the specified element to the collection.                        |
+| `remove(Object o)`           | Collection           | Removes the specified element (first match if duplicate).            |
+| `removeAll(Collection<?> c)` | Collection           | Removes all elements that are also in the specified collection.      |
+| `clear()`                    | Collection           | **Removes all** elements from the collection.                        |
+| `equals(Object o)`           | Collection           | Checks if two collections are **equal** in content.                  |
+| `stream()`                   | Collection (Java 8+) | Returns a **sequential stream** for functional-style operations.     |
+| `parallelStream()`           | Collection (Java 8+) | Returns a **parallel stream** for concurrent processing.             |
+
