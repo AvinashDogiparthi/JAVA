@@ -1,0 +1,6 @@
+✅ Why Heap over other Data Structures?
+Unlike arrays (O(n) for min/max) and sorted arrays (O(n) for insertion), a heap maintains both fast insertion and fast access to min/max.
+
+Compared to a balanced binary search tree (BST):
+Heap is faster for min/max (O(1) vs O(log n)).
+Heap does not maintain full order but focuses on the min/max.

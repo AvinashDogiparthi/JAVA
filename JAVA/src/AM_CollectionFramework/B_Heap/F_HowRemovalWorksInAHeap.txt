@@ -1,0 +1,134 @@
+✅ How Removal Works in a Heap (Heapify Down Explained)
+
+
+✅ Key Idea:
+In a Heap (Complete Binary Tree), we always remove the root (topmost element).
+After removal, we must maintain the Heap Property (Max-Heap or Min-Heap).
+This is done using a process called Heapify Down (or Sink Down).
+
+
+
+
+
+✅ Steps of Removing in a Heap (Heapify Down)
+
+Remove the Root Element:
+The root (topmost) element is always removed.
+Replace Root with the Last Element:
+Move the last element (rightmost in the last level) to the root position.
+
+Heapify Down (Sink Down):
+Start from the root:
+Compare the root with its largest child (for Max-Heap) or smallest child (for Min-Heap).
+Swap if the heap property is violated.
+Repeat until the heap property is restored (this may involve multiple swaps).
+
+
+
+
+
+
+✅ Example: Removing in a Max-Heap
+✅ Initial Max-Heap:
+         50
+       /    \
+      30     40
+     /  \   /  \
+    15  10  5  20
+
+✅ ➡️ Step 1: Remove the Root (50)
+We always remove the root.
+
+         X
+       /    \
+      30     40
+     /  \   /  \
+    15  10  5  20
+
+✅ ➡️ Step 2: Replace Root with Last Element (20)
+The last element (20) replaces the root.
+
+         20
+       /    \
+      30     40
+     /  \   /
+    15  10  5
+
+✅ ➡️ Step 3: Heapify Down (Sink Down)
+Start at the root (20):
+Compare 20 with its children (30 and 40).
+Swap 20 with the largest child (40).
+
+         40
+       /    \
+      30     20
+     /  \   /
+    15  10  5
+Continue Heapify Down:
+Compare 20 with its children (15, 10).
+Since 20 is already greater than both, no more swaps are needed.
+
+✅ ➡️ Final Max-Heap:
+         40
+       /    \
+      30     20
+     /  \   /
+    15  10  5
+
+
+
+✅ Example: Removing in a Min-Heap
+✅ Initial Min-Heap:
+         5
+       /    \
+      10     15
+     /  \   /
+    30  20 50
+
+✅ ➡️ Step 1: Remove the Root (5)
+Remove the root.
+
+         X
+       /    \
+      10     15
+     /  \   /
+    30  20 50
+
+✅ ➡️ Step 2: Replace Root with Last Element (50)
+The last element (50) replaces the root.
+
+         50
+       /    \
+      10     15
+     /  \
+    30  20
+
+✅ ➡️ Step 3: Heapify Down (Sink Down)
+Start at the root (50):
+Compare 50 with its smaller child (10).
+Swap 50 with 10.
+
+         10
+       /    \
+      50     15
+     /  \
+    30  20
+
+Continue Heapify Down:
+Compare 50 with its smaller child (20).
+Swap 50 with 20.
+
+         10
+       /    \
+      20     15
+     /  \
+    30  50
+No more swaps are needed.
+
+✅ ➡️ Final Min-Heap:
+
+         10
+       /    \
+      20     15
+     /  \
+    30  50

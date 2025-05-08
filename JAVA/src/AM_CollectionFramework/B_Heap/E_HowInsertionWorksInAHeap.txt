@@ -1,0 +1,120 @@
+✅ How Insertion Works in a Heap?
+Heap Insertion involves adding an element while maintaining the Heap Property (Max-Heap or Min-Heap).
+The process is called Heapify Up (or Bubble Up).
+
+✅ Steps of Heap Insertion (Heapify Up)
+Add the New Element:
+Insert the new element at the next available position (last level, left to right).
+
+
+
+
+Heapify Up (Bubble Up):
+
+Compare the new element with its parent.
+Swap if it violates the Heap Property
+
+
+In Max-Heap, the child should be less than or equal to its parent.
+In Min-Heap, the child should be greater than or equal to its parent.
+
+
+Repeat until the new element is correctly placed.
+
+
+
+✅ Example: Inserting in Max-Heap
+
+Initial Heap (Max-Heap):
+         50
+       /    \
+      30     20
+     /  \   /
+    15  10  5
+➡️ Insert 40:
+Add 40 at the next available position (last level, left to right).
+
+
+
+
+         50
+       /    \
+      30     20
+     /  \   /  \
+    15  10  5  40
+➡️ Heapify Up:
+Compare 40 with its parent (20):
+
+40 > 20 (violates Max-Heap)
+
+Swap 40 with 20.
+
+
+
+         50
+       /    \
+      30     40
+     /  \   /  \
+    15  10  5  20
+Compare 40 with its new parent (50):
+
+40 < 50 (satisfies Max-Heap)
+
+No further swaps are needed.
+
+➡️ Final Max-Heap:
+         50
+       /    \
+      30     40
+     /  \   /  \
+    15  10  5  20
+
+
+
+
+
+
+
+✅ Example: Inserting in Min-Heap
+Initial Heap (Min-Heap):
+         5
+       /   \
+      10    15
+     /  \   /
+    30  20 50
+
+➡️ Insert 8:
+Add 8 at the next available position.
+
+         5
+       /   \
+      10    15
+     /  \   / \
+    30  20 50  8
+
+
+➡️ Heapify Up:
+Compare 8 with its parent (15):
+
+8 < 15 (violates Min-Heap)
+
+Swap 8 with 15.
+
+         5
+       /   \
+      10    8
+     /  \   / \
+    30  20 50 15
+Compare 8 with its new parent (5):
+
+8 > 5 (satisfies Min-Heap)
+
+No further swaps are needed.
+
+➡️ Final Min-Heap:
+
+         5
+       /   \
+      10    8
+     /  \   / \
+    30  20 50 15

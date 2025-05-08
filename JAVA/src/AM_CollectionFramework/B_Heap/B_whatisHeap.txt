@@ -1,0 +1,11 @@
+A Heap is :
+
+A complete binary tree :
+        All levels are fully filled except possibly the last level, which is filled from left to right.
+Satisfies the heap property left to right
+
+
+
+Type                      Property                         Root Node Contains
+Min Heap                  Parent <= Children               Minimum Value
+Max Heap                  Parent <= Children               Maximum Value
