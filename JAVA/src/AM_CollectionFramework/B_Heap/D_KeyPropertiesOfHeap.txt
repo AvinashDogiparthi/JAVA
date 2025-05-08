@@ -1,0 +1,12 @@
+Efficient Access :
+
+Root element ( max or min ) is always at top
+Access Time : O(1)
+
+
+
+Insertion and Deletion :
+
+Always happen at the last level ( left to right ) to maintain complete tree
+Insertion time : O(log N ) ( because of heapify )
+Deletion Time : O(log N) ( only root can be deleted, and then re-heapifier)
