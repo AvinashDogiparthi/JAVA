@@ -1,4 +1,4 @@
-package AM_CollectionFramework.C_ComparatorvsComparable;
+package AM_CollectionFramework.C_Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
