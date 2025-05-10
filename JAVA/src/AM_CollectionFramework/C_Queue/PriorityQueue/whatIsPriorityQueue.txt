@@ -1,0 +1,18 @@
+✅ Priority Queue in Java: An In-Depth Explanation
+
+
+
+✅ What is a Priority Queue?
+A Priority Queue is a type of queue where each element has a priority.
+Elements with higher priority are served before elements with lower priority.
+It is part of the Java Collections Framework and is available in the java.util package.
+
+
+✅ How Priority Queue Works:
+Internally, PriorityQueue is implemented using a Binary Heap (Min-Heap by default).
+
+
+By default:
+It is a Min-Heap, meaning the smallest element is at the front.
+Elements are ordered in natural order (Comparable) if they are of a type that implements Comparable.
+If a custom order (Comparator) is provided, it follows that order.

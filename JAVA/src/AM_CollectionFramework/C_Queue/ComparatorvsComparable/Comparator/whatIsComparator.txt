@@ -1,0 +1,9 @@
+What is Comparator?
+Comparator is also an interface in Java (java.util.Comparator).
+It is used to define multiple sorting orders for a class.
+Sorting logic is defined outside the class.
+Allows sorting using custom rules without changing the class code.
+
+✅ How it works:
+A separate class or lambda expression is used to define the Comparator.
+Multiple Comparators can be defined for different sorting criteria.

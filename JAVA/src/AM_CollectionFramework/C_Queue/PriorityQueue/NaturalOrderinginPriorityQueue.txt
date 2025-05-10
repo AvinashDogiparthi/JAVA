@@ -1,0 +1,18 @@
+✅ Natural Ordering in Priority Queue:
+Natural Ordering means the order defined by the elements themselves.
+
+
+Any class used in PriorityQueue must:
+Implement the Comparable<T> interface.
+Override the compareTo method.
+
+
+✅ Example of Natural Ordering:
+For integers: 1, 2, 3, 4, 5 (Ascending Order).
+For strings: "Apple", "Banana", "Cherry" (Lexicographical Order).
+
+
+✅ How Natural Ordering Works Internally:
+PriorityQueue uses the compareTo method of elements:
+a.compareTo(b) < 0 → a has higher priority than b.
+a.compareTo(b) > 0 → b has higher priority than a.
