@@ -1,0 +1,5 @@
+Comparable is an interface in JAVA.
+It provides natural ordering for objects of a class.
+
+Sorting logic is defined within the class itself using compareTo() method.
+Only one sorting order can be defined for a class using comparable
