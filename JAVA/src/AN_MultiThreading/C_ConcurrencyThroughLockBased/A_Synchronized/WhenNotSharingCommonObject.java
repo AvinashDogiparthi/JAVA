@@ -1,4 +1,4 @@
-package AN_MultiThreading.C_LocksAndSemaphore.A_Synchronized;
+package AN_MultiThreading.C_ConcurrencyThroughLockBased.A_Synchronized;
 
 public class WhenNotSharingCommonObject {
     public static void main(String[] args) {

@@ -1,14 +1,17 @@
-package AN_MultiThreading.C_LocksAndSemaphore.A_Synchronized;
+package AN_MultiThreading.C_ConcurrencyThroughLockBased.B_ReEntrantLock;
 
-public class A_WhenSharingCommonObject {
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Main {
 
     public static void main(String[] args) {
 
-        // when sharing common object
-        SharedResource sharedResource = new SharedResource();
+        ReentrantLock reentrantLock = new ReentrantLock();
+        SharedResource resource1 = new SharedResource();
+        SharedResource resource2 = new SharedResource();
         Thread thread1 = new Thread(() -> {
             try {
-                sharedResource.produce();
+                resource1.produce(reentrantLock);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -16,7 +19,7 @@ public class A_WhenSharingCommonObject {
 
         Thread thread2 = new Thread(() -> {
             try {
-                sharedResource.produce();
+                resource2.produce(reentrantLock);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
