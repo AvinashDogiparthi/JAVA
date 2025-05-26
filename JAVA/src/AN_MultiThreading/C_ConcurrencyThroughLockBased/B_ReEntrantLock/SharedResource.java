@@ -1,18 +1,18 @@
-package AN_MultiThreading.C_LocksAndSemaphore.D_SemaphoreLock;
+package AN_MultiThreading.C_ConcurrencyThroughLockBased.B_ReEntrantLock;
 
-import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class SharedResource {
 
-    Semaphore semaphore = new Semaphore(2);
 
-    public void produce() throws InterruptedException {
-        semaphore.acquire();
+    public synchronized void produce(ReentrantLock reentrantLock) throws InterruptedException {
+        reentrantLock.lock();
         System.out.println("SharedResource::produce --- inside produce method which was triggered by : "+Thread.currentThread().getName());
 
         Thread.sleep(4000);
 
-        semaphore.release();
+        reentrantLock.unlock();
         System.out.println("SharedResouce::produce ---- completed produce method which was triggered by : "+Thread.currentThread().getName());
     }
 }
+

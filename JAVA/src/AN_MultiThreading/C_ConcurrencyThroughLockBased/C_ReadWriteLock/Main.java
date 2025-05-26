@@ -1,4 +1,4 @@
-package AN_MultiThreading.C_LocksAndSemaphore.C_ReadWriteLock;
+package AN_MultiThreading.C_ConcurrencyThroughLockBased.C_ReadWriteLock;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

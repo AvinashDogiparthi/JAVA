@@ -1,4 +1,4 @@
-package AN_MultiThreading.C_LocksAndSemaphore.E_ConditionLock;
+package AN_MultiThreading.C_ConcurrencyThroughLockBased.E_ConditionLock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
